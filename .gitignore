@@ -1,0 +1,29 @@
+# 编辑器临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 构建产物
+node_modules/
+dist/
+build/
+
+# 本地日志
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 备份（本仓库自己的）
+*.backup/
+.backup/
