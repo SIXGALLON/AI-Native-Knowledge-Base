@@ -1,4 +1,4 @@
-# 🧠 c
+# 🧠 AI-Native Knowledge Base
 
 > **Let AI become a long-term collaborator on your complex knowledge work,
 > not just a one-shot assistant.**
