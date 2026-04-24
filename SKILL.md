@@ -1,6 +1,6 @@
 ---
 name: ai-native-knowledge-base
-description: 让 AI 深度嵌入你的知识型工作流，把一项复杂工作（论文研究 / 评测标注 / 产品规范 / 品牌体系 / 运营 SOP / 培训教材 / 合规政策 / Wiki / UX 研究 / 数据报告 / 开源文档）沉淀为 AI 可读、可持续演进的知识库。支持两种启动方式：Greenfield（从零搭建）和 Retrofit（已有项目重构）。当用户说"帮我搭一套项目的知识管理"、"把这件事沉淀下来"、"让 AI 持续理解我这个项目"、"我有一坨文档帮我整理"、"怎么开始写这个论文"、"怎么管理这些材料"时触发本 skill。
+description: 让 AI 深度嵌入你的知识型工作流，把一项复杂工作（论文研究 / 理想态与评测 / 产品规范 / 品牌体系 / 运营 SOP / 培训教材 / 合规政策 / Wiki / UX 研究 / 数据报告 / 开源文档）沉淀为 AI 可读、可持续演进的知识库。支持两种启动方式：Greenfield（从零搭建）和 Retrofit（已有项目重构）。当用户说"帮我搭一套项目的知识管理"、"把这件事沉淀下来"、"让 AI 持续理解我这个项目"、"我有一坨文档帮我整理"、"怎么开始写这个论文"、"怎么管理这些材料"时触发本 skill。
 version: 2.0.0
 author: warrenixliu
 license: MIT
@@ -297,7 +297,7 @@ Step 3. 分批执行
 
 | 领域 | 触发关键词 | 定制要点 | 文档 |
 |---|---|---|---|
-| **评测 / 标注** | 评测、打标、RM、标注员、标签体系 | `10-ideal-response/` + `labels.csv` | `references/domains/评测标注.md` |
+| **理想态与评测** | 评测、打标、理想态、标注员、标签体系 | `10-ideal-response/` + `labels.csv` | `references/domains/理想态与评测.md` |
 | **学术论文** | 论文、CHI/NeurIPS/投稿、审稿意见 | `10-chapters/` + `references.bib` | `references/domains/学术论文.md` |
 | **产品规范 / PRD** | PRD、需求、产品、功能设计 | `10-specs/` + `requirements.csv` | `references/domains/产品规范.md` |
 | **运营 SOP** | SOP、流程、运营手册、客服 | `10-workflows/` + `checklist.csv` | `references/domains/运营SOP.md` |
@@ -412,21 +412,7 @@ AI 提取"可行动项" + "需共识的分歧"
 ### 交互示例（`references/demos/`）
 
 - `greenfield-论文.md` — 从零启动论文项目的完整对话
-- `greenfield-评测.md` — 从零启动评测项目的完整对话
 - `retrofit-混乱文件夹.md` — 改造已有项目的完整对话
-
-### 实战案例
-
-本方法论的 v1 实战印证项目：**"知识非搜理想态与评测标签"**（warrenixliu 的评测体系项目）。演进历程：
-
-- ADR-0001：引入问答对话效果理想态文档体系
-- ADR-0002：文件结构精简
-- ADR-0003：追问不当合并与虚假承诺拆分
-- ADR-0004：GSB 体感判定精细化
-- ADR-0005：打分规则与标签数量解耦
-- ADR-0006：虚假承诺 P 级收敛
-
-这套方法论经历了 6 次方向性演进,证明了**长期可维护性**。
 
 ---
 

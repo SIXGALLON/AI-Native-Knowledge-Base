@@ -19,7 +19,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
   - 用"AI 嵌入深度"作为判别轴,不再是"人数"
   - 自动判别机制 + 升级触发信号
 - **Retrofit 改造模式**：对已有项目做诊断 → 方案 → 分批迁移的完整流程
-- **11 个领域 quick-start 包**：学术论文、评测标注、产品规范、运营 SOP、品牌体系、培训课程、法律合规、团队 Wiki、开源项目、UX 研究、数据分析
+- **11 个领域 quick-start 包**：学术论文、理想态与评测、产品规范、运营 SOP、品牌体系、培训课程、法律合规、团队 Wiki、开源项目、UX 研究、数据分析
 - **交互示例 demos**：完整对话展示 Greenfield 和 Retrofit 两种模式
 - **AI 交互原则**（§零）：7 条行为准则确保自然交互
 - **ANTI-PATTERNS 章节**：明确说明什么时候不该用本 skill

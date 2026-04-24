@@ -60,7 +60,7 @@ touch 40-process/governance-health.md   # 定期健康度检查
 
 ## 二、按领域的特化（11 种）
 
-### 评测 / 标注
+### 理想态与评测
 
 ```bash
 mkdir -p 10-ideal-response/20-场景分型 10-ideal-response/90-案例库/good 10-ideal-response/90-案例库/bad

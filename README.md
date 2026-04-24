@@ -1,4 +1,4 @@
-# 🧠 AI-Native Knowledge Base
+# 🧠 c
 
 > **Let AI become a long-term collaborator on your complex knowledge work,
 > not just a one-shot assistant.**
@@ -13,7 +13,7 @@
 
 ## ✨ 这是什么
 
-一套**让 AI 深度嵌入知识型工作**的方法论 + 可复用的 Claude/CodeBuddy Skill。
+AI-Native Knowledge Base一套**让 AI 深度嵌入知识型工作**的方法论 + 可复用的 Claude/CodeBuddy Skill。
 
 你有没有遇到过这些问题？
 
@@ -29,16 +29,10 @@
 
 ## 🎯 适用场景
 
-<table>
-<tr>
-<th>✅ 适合</th>
-<th>❌ 不适合</th>
-</tr>
-<tr>
-<td>
+### ✅ 适合
 
 - 📝 **学术论文** / 研究项目
-- 🏷️ **评测标注** / RM 训练数据
+- 🏷️ **理想态与评测** / 打标体系
 - 📋 **产品 PRD** / 需求文档
 - 🔧 **运营 SOP** / 工作手册
 - 🎨 **品牌体系** / VI 规范
@@ -49,17 +43,12 @@
 - 🔬 **UX 研究** / 用户调研
 - 📊 **数据分析** 报告
 
-</td>
-<td>
+### ❌ 不适合
 
 - 📧 一次性任务（一封邮件 / 一个答案）
 - 💻 纯代码仓库（用 GitHub README 就够）
 - 📔 个人流水账笔记（用 Obsidian / Notion）
 - 🎭 已有成熟行业模板的工作（学术期刊 LaTeX / 法定合规格式）
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -82,7 +71,7 @@ git clone https://github.com/<user>/ai-native-knowledge-base.git
 
 > **"我要做一个 XX 项目,帮我启动"**（从零建库）
 >
-> **"帮我整理这个文件夹 <path>"**（改造已有项目）
+> **"帮我整理这个文件夹 `<path>`"**（改造已有项目）
 
 Skill 会自动触发,引导你完成结构化。
 
@@ -107,14 +96,14 @@ Skill 会自动触发,引导你完成结构化。
 
 ### 六大不动摇原则
 
-| 原则 | 一句话 |
-|---|---|
-| **Single Source of Truth** | 规则只在一处权威存在,其他引用不复制 |
-| **原始 vs 派生分层** | 原始材料永不改,派生文档持续迭代 |
-| **决策留档（ADR）** | 方向性决策一定写下来,三个月后才知道为什么 |
-| **变更日志（changelog）** | SSoT 变动必登记,可追溯 |
-| **联动检查** | 改 A 必扫全局引用,不漏 B |
-| **Inbox 单一入口** | 散乱输入先分拣,不允许散落 |
+| 原则                             | 一句话                                    |
+| -------------------------------- | ----------------------------------------- |
+| **Single Source of Truth** | 规则只在一处权威存在,其他引用不复制       |
+| **原始 vs 派生分层**       | 原始材料永不改,派生文档持续迭代           |
+| **决策留档（ADR）**        | 方向性决策一定写下来,三个月后才知道为什么 |
+| **变更日志（changelog）**  | SSoT 变动必登记,可追溯                    |
+| **联动检查**               | 改 A 必扫全局引用,不漏 B                  |
+| **Inbox 单一入口**         | 散乱输入先分拣,不允许散落                 |
 
 ---
 
@@ -165,19 +154,19 @@ L4 · Guard 守护          AI 是守护者           高风险 / 下游多
 
 每个领域都有定制化的目录结构、常见输入分拣、典型 ADR 主题、CLAUDE.md 片段。
 
-| 领域 | 触发关键词 | Quick-start |
-|---|---|---|
-| 📝 学术论文 | 论文、CHI / NeurIPS / SCI / 投稿 | [→](references/domains/学术论文.md) |
-| 🏷️ 评测标注 | 评测、打标、RM、标注 | [→](references/domains/评测标注.md) |
-| 📋 产品规范 | PRD、需求、产品设计 | [→](references/domains/产品规范.md) |
-| 🔧 运营 SOP | SOP、流程、运营手册 | [→](references/domains/运营SOP.md) |
-| 🎨 品牌体系 | 品牌、VI、design token | [→](references/domains/品牌体系.md) |
-| 🎓 培训课程 | 培训、课件、教材 | [→](references/domains/培训课程.md) |
-| ⚖️ 法律合规 | 合规、政策、条款、监管 | [→](references/domains/法律合规.md) |
-| 📚 团队 Wiki | Wiki、团队知识、onboarding | [→](references/domains/团队Wiki.md) |
-| 🌟 开源项目 | 开源、GitHub、OSS | [→](references/domains/开源项目.md) |
-| 🔬 UX 研究 | UX、用户研究、访谈 | [→](references/domains/UX研究.md) |
-| 📊 数据分析 | 数据分析、BI、报告 | [→](references/domains/数据分析.md) |
+| 领域          | 触发关键词                       | Quick-start                       |
+| ------------- | -------------------------------- | --------------------------------- |
+| 📝 学术论文   | 论文、CHI / NeurIPS / SCI / 投稿 | [→](references/domains/学术论文.md) |
+| 🏷️ 理想态与评测 | 评测、打标、理想态、标注         | [→](references/domains/理想态与评测.md) |
+| 📋 产品规范   | PRD、需求、产品设计              | [→](references/domains/产品规范.md) |
+| 🔧 运营 SOP   | SOP、流程、运营手册              | [→](references/domains/运营SOP.md)  |
+| 🎨 品牌体系   | 品牌、VI、design token           | [→](references/domains/品牌体系.md) |
+| 🎓 培训课程   | 培训、课件、教材                 | [→](references/domains/培训课程.md) |
+| ⚖️ 法律合规 | 合规、政策、条款、监管           | [→](references/domains/法律合规.md) |
+| 📚 团队 Wiki  | Wiki、团队知识、onboarding       | [→](references/domains/团队Wiki.md) |
+| 🌟 开源项目   | 开源、GitHub、OSS                | [→](references/domains/开源项目.md) |
+| 🔬 UX 研究    | UX、用户研究、访谈               | [→](references/domains/UX研究.md)   |
+| 📊 数据分析   | 数据分析、BI、报告               | [→](references/domains/数据分析.md) |
 
 ---
 
@@ -205,7 +194,7 @@ ai-native-knowledge-base/
     │
     └── domains/                # 11 个领域 quick-start 包
         ├── 学术论文.md
-        ├── 评测标注.md
+        ├── 理想态与评测.md
         ├── 产品规范.md
         ├── 运营SOP.md
         ├── 品牌体系.md
@@ -216,23 +205,6 @@ ai-native-knowledge-base/
         ├── UX研究.md
         └── 数据分析.md
 ```
-
----
-
-## 🎬 实战印证
-
-本方法论来自**真实项目沉淀**：作者的"知识非搜理想态与评测标签"评测体系项目。
-
-该项目经历 **6 次方向性 ADR 演进**：
-
-- `ADR-0001` 引入文档体系
-- `ADR-0002` 文件结构精简
-- `ADR-0003` 追问不当合并与虚假承诺拆分
-- `ADR-0004` GSB 体感判定精细化
-- `ADR-0005` 打分规则与标签数量解耦（方法论元层面）
-- `ADR-0006` 虚假承诺 P 级收敛
-
-每一次都在**验证本方法论的长期可维护性**。所有机制都不是空谈,是被实战捶打过的。
 
 ---
 
@@ -305,7 +277,7 @@ MIT License. 自由使用,请保留署名。
 
 - **Anthropic Claude** 团队提出的 Skill 架构
 - 软件工程社区的 ADR（Architecture Decision Record）传统
-- 作者在评测项目实战中积累的所有踩坑与校准
+- 在真实项目实践中积累的所有踩坑与校准
 
 ---
 
